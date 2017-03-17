@@ -7,7 +7,7 @@ $(document).ready(function(){
       function displayMovieInfo() {
 
         var movie = $(this).attr("data-name");
-        var queryURL = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&r=json";
+        var queryURL = "https://www.omdbapi.com/?t=" + movie + "&y=&plot=short&r=json";
 
         // Creating an AJAX call for the specific movie button being clicked
         $.ajax({
